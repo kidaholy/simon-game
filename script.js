@@ -17,3 +17,7 @@ function nextSequence () {
   var audio = new Audio("sounds/" + randomChosenColor + ".mp3");
   audio.play();
 }
+
+function playSound (name) {
+  
+}
