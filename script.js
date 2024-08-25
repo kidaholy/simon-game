@@ -5,6 +5,8 @@ var userClickedPattern = [];
 $(".btn").click(function() {
   var userChosenColor = $(this).attr("id");
   userClickedPattern.push(userChosenColor);
+
+  playSound(userChosenColor);
 });
 function nextSequence () {
   var randomNumber = Math.floor(Math.random() * 4);
