@@ -2,6 +2,8 @@ var buttonColor = ["red", "blue", "green", "yellow"];
 var gamePattern = [];
 var userClickedPattern = [];
 
+var started = false;
+
 $(document).keypress(function () {});
 
 $(".btn").click(function() {
