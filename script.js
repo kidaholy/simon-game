@@ -20,10 +20,10 @@ $(".btn").click(function () {
   playSound(userChosenColor);
   animatePress(userChosenColor);
 
-  checkAnswer(userClickedPattern.length-1);
+  checkAnswer(userClickedPattern.length - 1);
 });
 
-function checkAnswer (currentLevel) {
+function checkAnswer(currentLevel) {
   if (gamePattern[currentLevel] === userClickedPattern[currentLevel]) {
     if (userClickedPattern.length === gamePattern.length) {
       setTimeout(function () {
@@ -45,7 +45,6 @@ function checkAnswer (currentLevel) {
   }
 }
 function nextSequence() {
-
   userClickedPattern = [];
 
   level++;
@@ -78,7 +77,7 @@ function animatePress(currentColor) {
   }, 100);
 }
 
-function startOver () {
+function startOver() {
   level = 0;
   gamePattern = [];
   started = false;
