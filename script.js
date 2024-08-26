@@ -31,6 +31,7 @@ function checkAnswer (currentLevel) {
       }, 1000);
     } else {
       console.log("wrong");
+      playSound("wrong");
     }
   }
 }
