@@ -24,7 +24,9 @@ $(".btn").click(function () {
 });
 
 function checkAnswer (currentLevel) {
-
+  if (gamePattern[currentLevel] === userClickedPattern[currentLevel]) {
+    
+  }
 }
 function nextSequence() {
   var randomNumber = Math.floor(Math.random() * 4);
