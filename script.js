@@ -7,7 +7,7 @@ var level = 0;
 
 $(document).keypress(function () {
   if (!started) {
-    $("#level-title").text("level" + level);
+    $("#level-title").text("level " + level);
     nextSequence();
     started = true;
   }
@@ -18,10 +18,13 @@ $(".btn").click(function () {
   userClickedPattern.push(userChosenColor);
 
   playSound(userChosenColor);
+  animatePress(userChosenColor);
+
+  checkAnswer(userClickedPattern.length-1);
 });
 
 function checkAnswer (currentLevel) {
-  
+
 }
 function nextSequence() {
   var randomNumber = Math.floor(Math.random() * 4);
