@@ -29,10 +29,18 @@ function checkAnswer (currentLevel) {
       setTimeout(function () {
         nextSequence();
       }, 1000);
+    } else {
+      console.log("wrong");
     }
   }
 }
 function nextSequence() {
+
+  userClickedPattern = [];
+
+  level++;
+  $("#level-title").text("level " + level);
+
   var randomNumber = Math.floor(Math.random() * 4);
   var randomChosenColor = buttonColor(randomNumber);
   gamePattern.push(randomChosenColor);
