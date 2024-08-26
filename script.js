@@ -7,7 +7,7 @@ var level = 0;
 
 $(document).keypress(function () {
   if (!started) {
-    $("#level-title").text("level " + level);
+    $("#level-title").text("Level " + level);
     nextSequence();
     started = true;
   }
@@ -48,7 +48,7 @@ function nextSequence() {
   userClickedPattern = [];
 
   level++;
-  $("#level-title").text("level " + level);
+  $("#level-title").text("Level " + level);
 
   var randomNumber = Math.floor(Math.random() * 4);
   var randomChosenColor = buttonColor(randomNumber);
