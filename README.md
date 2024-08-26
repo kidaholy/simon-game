@@ -6,4 +6,8 @@ the socon one is the two button sequence and
 the third which it shows you
 the sequence goes like this if you forgot the sequence and you miss the step it with show the game over heading
 play and enjoy it and let me know which level you got on the comment
-![Screenshot 2024-08-26 134802](https://github.com/user-attachments/assets/4ded46c1-fb5e-4c31-bf24-6636229e679d)
+# How to play?
+https://github.com/user-attachments/assets/dcfdb217-257f-47bf-9fc4-86e45ad1239f
+
+# How to play ?
+<a href="https://www.youtube.com/watch?v=EWJ5uYwQJGU&pp=ygUKc2ltbm8tZ2FtZQ%3D%3D">Youtube</a>
