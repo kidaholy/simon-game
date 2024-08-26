@@ -75,3 +75,7 @@ function animatePress(currentColor) {
     $("#" + currentColor).removeClass("pressed");
   }, 100);
 }
+
+function startOver () {
+  
+}
