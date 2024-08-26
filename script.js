@@ -5,7 +5,11 @@ var userClickedPattern = [];
 var started = false;
 var level = 0;
 
-$(document).keypress(function () {});
+$(document).keypress(function () {
+  $("#level-title").text("level" + level);
+  nextSequence();
+  started = true;
+});
 
 $(".btn").click(function() {
   var userChosenColor = $(this).attr("id");
