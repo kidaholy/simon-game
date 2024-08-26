@@ -19,6 +19,10 @@ $(".btn").click(function () {
 
   playSound(userChosenColor);
 });
+
+function checkAnswer (currentLevel) {
+  
+}
 function nextSequence() {
   var randomNumber = Math.floor(Math.random() * 4);
   var randomChosenColor = buttonColor(randomNumber);
